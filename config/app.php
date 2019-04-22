@@ -13,6 +13,9 @@ return [
     |
     */
 
+    // 订单超时关闭
+    'order_ttl' => 1800,
+
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
